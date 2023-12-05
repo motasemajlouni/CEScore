@@ -11,7 +11,7 @@ Automatic Evaluation Metric described in the paper [CEScore:  Simple and Efficie
 
 #### Authors:
 * [Almotasem Bellah Al Ajlouni](https://scholar.google.com/citations?hl=en&user=mEAzS74AAAAJ)
-* [Jinlong Li]
+* Jinlong Li
 
 
 
@@ -19,16 +19,6 @@ Automatic Evaluation Metric described in the paper [CEScore:  Simple and Efficie
 CEScore is a novel statistical model to evaluate text simplification (TS) and split and rephrase (SR) tasks. It functions as a Confidence Estimation Score model, it directly evaluates the quality of TS and SR by considering three fundamental dimensions: Simplicity (S), ensuring that the text becomes more straightforward; Meaning preservation (M), verifying that the essence of the original content remains intact; and Grammaticality (G), assessing the text's adherence to proper grammar.
 CEScore generates four distinct scores: Sscore, Mscore, Gscore, and CEscore, each of which represents the model's assessment for a specific criterion. This approach mirrors the way humans naturally evaluate TS and SR, providing a more contextually relevant and interpretable assessment of the quality of these tasks.It has been shown to correlate with human judgment on sentence-level and
 system-level evaluation.
-
-
-CEScore leverages the pre-trained contextual embeddings from BERT and matches
-words in candidate and reference sentences by cosine similarity.
-
-Moreover, BERTScore computes precision, recall, and F1 measure, which can be
-useful for evaluating different language generation tasks.
-
-For an illustration, BERTScore recall can be computed as
-![](./bert_score.png "BERTScore")
 
 If you find this repo useful, please cite the paper (https://arxiv.org/abs/2312.01356):
 
