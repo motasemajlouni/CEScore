@@ -1,8 +1,8 @@
 # CEScore
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
-[![arxiv](https://img.shields.io/badge/arXiv-1904.09675-b31b1b.svg)](https://arxiv.org/abs/2312.01356)
+[![arxiv](https://img.shields.io/badge/arXiv-2312.01356-b31b1b.svg)](https://arxiv.org/abs/2312.01356)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
+ 
 
 
 Automatic Evaluation Metric described in the paper [CEScore:  Simple and Efficient Confidence Estimation Model for Evaluating Split and Rephrase](https://arxiv.org/abs/2312.01356) 
