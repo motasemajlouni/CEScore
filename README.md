@@ -64,9 +64,13 @@ where the text after -r represent the reference text (the complex text), and the
 You will get the following output at the end:
 
 Sscore = 0.606927
+
 Mscore = 0.973384
+
 Gscore = 0.886508
+
 CEscore = 0.89842
+
 
 When you having multiple sentences, please use name of files instead of text as following:
 
@@ -79,9 +83,13 @@ We provide example inputs under `./example`.
 You will get:
 
 corpus Sscore = 0.549215
+
 corpus Mscore = 0.909907
+
 corpus Gscore = 0.672831
+
 corpus CEscore = 0.682982
+
 
 Which represent the average scores from all the sentences in the input files, while the scores for each sentence will be found in the `CEscore.res` file. Furthermore, you can specify the name of the output  file by passing the -o option
 
