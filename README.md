@@ -37,7 +37,7 @@ pip install git+https://github.com/motasemajlouni/CEScore
 Install it from the source by:
 ```sh
 git clone https://github.com/motasemajlouni/CEScore
-cd bert_score
+cd CEScore
 pip install .
 ```
 
